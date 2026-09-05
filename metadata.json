@@ -1,0 +1,6 @@
+{
+  "name": "Condo+",
+  "description": "An intelligent, AI-powered rental property management system with secure document onboarding, contract orchestration, and high-fidelity financial calculations using the Gemini API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,211 @@
+{
+  "entities": {
+    "Proprietario": {
+      "title": "Proprietario",
+      "description": "Schema for ProptechOS property landlords",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" },
+        "email": { "type": "string" },
+        "cpfCnpj": { "type": "string" },
+        "rg": { "type": "string" },
+        "nacionalidade": { "type": "string" },
+        "estadoCivil": { "type": "string" },
+        "residencia": { "type": "string" },
+        "banco": { "type": "string" },
+        "agencia": { "type": "string" },
+        "conta": { "type": "string" },
+        "pixKey": { "type": "string" }
+      },
+      "required": ["id", "nome"]
+    },
+    "Imovel": {
+      "title": "Imovel",
+      "description": "Landlord properties",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "endereco": { "type": "string" },
+        "tipo": { "type": "string" },
+        "valorAluguel": { "type": "number" },
+        "observacoes": { "type": "string" },
+        "proprietarioId": { "type": "string" },
+        "fotos": { "type": "array" }
+      },
+      "required": ["id", "endereco", "tipo", "valorAluguel", "proprietarioId"]
+    },
+    "Inquilino": {
+      "title": "Inquilino",
+      "description": "Tenant profile with analysis and files",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" },
+        "email": { "type": "string" },
+        "cpfCnpj": { "type": "string" },
+        "rg": { "type": "string" },
+        "rendaMensalDeclarada": { "type": "number" },
+        "profissao": { "type": "string" },
+        "telefone": { "type": "string" },
+        "selectedPropertyId": { "type": "string" },
+        "status": { "type": "string" },
+        "arquivos": { "type": "array" }
+      },
+      "required": ["id", "nome", "email"]
+    },
+    "Contrato": {
+      "title": "Contrato",
+      "description": "Lease and management contracts",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "imovelId": { "type": "string" },
+        "inquilinoId": { "type": "string" },
+        "dataInicio": { "type": "string" },
+        "dataFim": { "type": "string" },
+        "garantiaTipo": { "type": "string" },
+        "garantiaValor": { "type": "number" },
+        "taxaAdministrativaPercent": { "type": "number" },
+        "vencimentoDia": { "type": "number" }
+      },
+      "required": ["id", "imovelId", "inquilinoId", "dataInicio", "vencimentoDia"]
+    },
+    "Faturamento": {
+      "title": "Faturamento",
+      "description": "Rental invoice, utility bill, or transaction slip",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "contratoId": { "type": "string" },
+        "competencia": { "type": "string" },
+        "dataVencimento": { "type": "string" },
+        "valorBase": { "type": "number" },
+        "status": { "type": "string" },
+        "descricao": { "type": "string" },
+        "comprovantes": { "type": "array" }
+      },
+      "required": ["id", "contratoId", "dataVencimento", "valorBase", "status"]
+    },
+    "Despesa": {
+      "title": "Despesa",
+      "description": "Expenses for property maintenance, taxes, or management",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "imovelId": { "type": "string" },
+        "descricao": { "type": "string" },
+        "valor": { "type": "number" },
+        "data": { "type": "string" },
+        "categoria": { "type": "string" }
+      },
+      "required": ["id", "imovelId", "descricao", "valor"]
+    },
+    "Repasse": {
+      "title": "Repasse",
+      "description": "Transfers and payouts made to landlords",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "faturamentoId": { "type": "string" },
+        "proprietarioId": { "type": "string" },
+        "valorOriginal": { "type": "number" },
+        "valorTaxaAdm": { "type": "number" },
+        "valorDescontoDespesas": { "type": "number" },
+        "valorLiquidoRepassado": { "type": "number" },
+        "dataRepasse": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["id", "faturamentoId", "proprietarioId", "status"]
+    },
+    "NotificationSettings": {
+      "title": "NotificationSettings",
+      "description": "Email, notification and whatsapp config settings",
+      "type": "object",
+      "properties": {
+        "directAdminKey": { "type": "string" },
+        "smtpUser": { "type": "string" },
+        "smtpPassword": { "type": "string" },
+        "smtpHost": { "type": "string" },
+        "smtpPort": { "type": "string" },
+        "whatsappToken": { "type": "string" },
+        "whatsappInstancePhone": { "type": "string" },
+        "alertBeforeDueDays": { "type": "number" },
+        "alertBeforeContractExpirationMonths": { "type": "number" },
+        "autoEmailAlerts": { "type": "boolean" },
+        "autoWhatsappAlerts": { "type": "boolean" }
+      },
+      "required": ["directAdminKey"]
+    },
+    "AIAprendizadoPattern": {
+      "title": "AIAprendizadoPattern",
+      "description": "AI learned pattern data for automated validation of documents",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "tipoDocumento": { "type": "string" },
+        "nomeArquivoPattern": { "type": "string" },
+        "conteudoTextoPattern": { "type": "string" },
+        "observacoesTreinamento": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id"]
+    },
+    "NotificationLog": {
+      "title": "NotificationLog",
+      "description": "Log entry for notification delivery attempts",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "recipient": { "type": "string" },
+        "type": { "type": "string" },
+        "status": { "type": "string" },
+        "message": { "type": "string" }
+      },
+      "required": ["id"]
+    }
+  },
+  "firestore": {
+    "proprietarios/{proprietarioId}": {
+      "schema": "Proprietario",
+      "description": "Landlord list collection"
+    },
+    "imoveis/{imovelId}": {
+      "schema": "Imovel",
+      "description": "Property asset directory"
+    },
+    "inquilinos/{inquilinoId}": {
+      "schema": "Inquilino",
+      "description": "Tenant applicant and active renting profiles"
+    },
+    "contratos/{contratoId}": {
+      "schema": "Contrato",
+      "description": "Active lease contracts linking properties and tenants"
+    },
+    "faturamentos/{faturamentoId}": {
+      "schema": "Faturamento",
+      "description": "Rent and utility bills linked to leases"
+    },
+    "despesas/{despesaId}": {
+      "schema": "Despesa",
+      "description": "Maintenance or other expenses"
+    },
+    "repasses/{repasseId}": {
+      "schema": "Repasse",
+      "description": "Rent payout distributions for landlords"
+    },
+    "settings/notificationSettings": {
+      "schema": "NotificationSettings",
+      "description": "General system setup metadata"
+    },
+    "aiTrainingPatterns/{patternId}": {
+      "schema": "AIAprendizadoPattern",
+      "description": "AI Training Patterns and learned document profiles"
+    },
+    "notificationLogs/{logId}": {
+      "schema": "NotificationLog",
+      "description": "Delivery history of alerts forwarded via SMTP or WhatsApp API"
+    }
+  }
+}

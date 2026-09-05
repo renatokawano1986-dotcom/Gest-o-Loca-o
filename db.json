@@ -1,0 +1,1262 @@
+{
+  "proprietarios": [
+    {
+      "id": "prop-renato",
+      "rg": "",
+      "conta": "31860-2",
+      "email": "admdomyuri@gmail.com",
+      "banco": "Itaú ",
+      "cpfCnpj": "34160238890",
+      "agencia": "1063",
+      "estadoCivil": "casado(a)",
+      "nacionalidade": "Brasileiro ",
+      "residencia": "Santo André",
+      "nome": "Renato Faria Kawano",
+      "pixKey": "34160238890"
+    }
+  ],
+  "imoveis": [
+    {
+      "id": "imovel-1781730842434",
+      "valorAluguel": 1100,
+      "complemento": "Casa 2",
+      "endereco": "Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP",
+      "isBuilding": true,
+      "tipo": "Prédio",
+      "proprietarioId": "prop-1781729862358"
+    }
+  ],
+  "inquilinos": [
+    {
+      "id": "inquilino-1781822629148",
+      "nome": "Nurya Murakami Dogan",
+      "cpf": "028.313.741-03",
+      "selectedPropertyId": "imovel-1781730842434",
+      "validatedDocs": {
+        "cnhRg": true,
+        "paystub": true,
+        "incomeProof": true
+      },
+      "email": "nuryafatec@gmail.com",
+      "aiReport": {
+        "validations": {
+          "nameMatches": true,
+          "incomeConsistent": false,
+          "rentToIncomeRatio": 24,
+          "recommendation": "REVISAO_MANUAL",
+          "riskScore": 65,
+          "notes": "A análise dos extratos bancários do Bradesco (Abril-Junho/2026) e Nubank (Março/2026) revela um perfil financeiro de autônomo com múltiplas fontes de entrada e alta movimentação entre contas próprias. O valor de R$ 4.530,89, referente ao 'Total de entradas' do Nubank em Março/2026, foi considerado como renda bruta para fins de cálculo, porém, é crucial notar que uma parcela significativa deste valor (aproximadamente R$ 2.494,00) corresponde a transferências entre contas da própria proponente e adições via cartão de crédito (aproximadamente R$ 731,86), não representando renda externa recorrente. As entradas externas identificadas incluem R$ 175,00 da CONNECT BARTENDERS LTDA (CNPJ: 17.426.810/0001-07) e R$ 1.000,01 do Banco Daycoval S/A (CNPJ: 62.232.889/0001-90), cuja natureza é ambígua (possivelmente empréstimo ou investimento). No extrato Bradesco, as maiores entradas são da 'PREFEITURA EST BALNEARIA DE PRAI', mas são acompanhadas de saídas de valores similares para a mesma entidade, sugerindo um fluxo de caixa operacional ou pass-through, e não renda líquida. A renda líquida real e recorrente é substancialmente inferior ao total de entradas brutas. A relação aluguel/renda bruta (R$ 1.100 / R$ 4.530,89 = 24,28%) está dentro do limite ideal, mas o perfil de movimentação e a baixa renda líquida recorrente identificada indicam um risco elevado.",
+          "cpfValid": true
+        },
+        "nome": "Nurya Murakami Dogan",
+        "birthDate": "1988-12-05",
+        "cpfCnpj": "028.313.741-03",
+        "grossIncome": 4530.89,
+        "documentId": "1741488-1",
+        "documentType": "RG"
+      },
+      "arquivos": [
+        {
+          "id": "candidate-doc-1781822627291-7laz",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "dataUpload": "2026-06-18T22:43:47.291Z",
+          "mimeType": "application/pdf",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "tamanho": "190.4 KB",
+          "nome": "BC4CFAB5-401A-4896-B813-EEF0D68585C3.pdf"
+        },
+        {
+          "id": "candidate-doc-1781822627299-rdii",
+          "dataUpload": "2026-06-18T22:43:47.299Z",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "tamanho": "460.3 KB",
+          "nome": "Rg.pdf",
+          "mimeType": "application/pdf"
+        },
+        {
+          "id": "candidate-income-1781822627299-crcq",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "dataUpload": "2026-06-18T22:43:47.299Z",
+          "tamanho": "12.4 KB",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "nome": "4acace18-5b2a-4db0-a8a1-85bfc13e0278.pdf",
+          "mimeType": "application/pdf"
+        },
+        {
+          "id": "candidate-income-1781822627299-a2ka",
+          "nome": "NU_95482125_01MAR2026_31MAR2026.pdf",
+          "tamanho": "52.4 KB",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "mimeType": "application/pdf",
+          "dataUpload": "2026-06-18T22:43:47.299Z",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]"
+        },
+        {
+          "mimeType": "application/pdf",
+          "nome": "holerite_055956042026.pdf",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "tamanho": "76.5 KB",
+          "dataUpload": "2026-06-18T22:43:47.299Z",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "id": "candidate-income-1781822627299-f0s1"
+        },
+        {
+          "dataUpload": "2026-06-18T22:43:47.299Z",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "nome": "NU_95482125_01MAI2026_31MAI2026.pdf",
+          "tamanho": "44.1 KB",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "mimeType": "application/pdf",
+          "id": "candidate-income-1781822627299-f42x"
+        },
+        {
+          "id": "candidate-income-1781822627299-gepv",
+          "tamanho": "47.5 KB",
+          "mimeType": "application/pdf",
+          "url": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+          "nome": "NU_95482125_01ABR2026_30ABR2026.pdf",
+          "dataUpload": "2026-06-18T22:43:47.299Z",
+          "base64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]"
+        }
+      ],
+      "estadoCivil": "Divorciado(a)",
+      "scoreCredito": 880,
+      "status": "APROVADO",
+      "profissao": "Autônomo",
+      "rendaMensal": 4530.89,
+      "telefone": "13991767938",
+      "rg": "1741488-1",
+      "scoreRisk": "BAIXO"
+    }
+  ],
+  "contratos": [
+    {
+      "id": "contrato-1781822781160",
+      "customTemplateName": "Matheus_Luiz_-_KIT_05_assinado",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado {{LOCADOR_NOME}}, {{LOCADOR_NACIONALIDADE}}, {{LOCADOR_ESTADO_CIVIL}}, portador de Rg {{LOCADOR_RG}} e do CPF {{LOCADOR_CPF}} residente em {{LOCADOR_RESIDENCIA}}, como locador e de outro o Sr.(a) {{LOCATARIO_NOME}}–, brasileiro(a),{{LOCATARIO_ESTADO_CIVIL}}, portador(a) do RG {{LOCATARIO_RG}} e do CPF: {{LOCATARIO_CPF}}, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a {{IMOVEL_ENDERECO}} ({{IMOVEL_UNIDADE}}) Solemar – Solemar - SP que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de {{CONTRATO_PRAZO_MESES}} (Doze) meses sendo o inicial em {{CONTRATO_DATA_INICIO}} e o final no dia {{CONTRATO_DATA_FIM}}, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de {{IMOVEL_VALOR}} ({{IMOVEL_VALOR_EXTENSO}}) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia {{CONTRATO_DIA_VENCIMENTO}} (Dez) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no {{LOCADOR_BANCO}}, agência {{LOCADOR_AGENCIA}} - Conta Corrente {{LOCADOR_CONTA}} ou via PIX: {{LOCADOR_PIX}}. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.155,00 (Hum mil cento e cinquenta e cinco reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$550,00 trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n8 de Abril de 2026, Praia Grande - SP.\n\n{{LOCADOR_NOME}}\n{{LOCATARIO_NOME}}\n\n**LOCADOR**\n**LOCATÁRIO**\n\ngov.br\nDocumento assinado digitalmente\nMATHEUS LUIS DA COSTA OLIVEIRA\nData: 08/04/2026 06:55:30-0300\nVerifique em https://validar.iti.gov.br\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "status": "ARQUIVADO",
+      "overriddenLocadorNacionalidade": "brasileiro(a)",
+      "inquilinoId": "inquilino-1781822629148",
+      "overriddenLocadorPix": "341.602.388-90",
+      "observacoesInterrupcao": "Teste ",
+      "overriddenEnderecoImovel": "Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apto 06",
+      "profissaoLocatario": "Servidor Público",
+      "overriddenLocadorConta": "31860-2",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1",
+      "dataFim": "2027-06-17",
+      "overriddenValorAluguel": 1100,
+      "dataInicio": "2026-06-17",
+      "overriddenLocadorEstadoCivil": "casado(a)",
+      "overriddenLocadorAgencia": "1063",
+      "overriddenLocadorCpf": "341.602.388-90",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "overriddenDiaVencimento": 1,
+      "overriddenLocatarioCpf": "028.313.741-03",
+      "overriddenLocadorNome": "Renato Faria Kawano",
+      "overriddenLocadorBanco": "Banco Itaú",
+      "diaVencimento": 1,
+      "overriddenLocadorRg": "33698982",
+      "overriddenLocatarioNome": "Nurya Murakami Dogan",
+      "overriddenLocadorResidencia": "Santo André, SP",
+      "unidade": "Apto 06"
+    },
+    {
+      "id": "contrato-1781824171547",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "profissaoLocatario": "Autônomo",
+      "observacoesInterrupcao": "Teste ",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apto 06 (Apto 06) Solemar – Solemar - SP que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze) meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 1.100,00 (hum mil e cem reais) trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\nRenato Faria Kawano\nNurya Murakami Dogan\n\n**LOCADOR**\n**LOCATÁRIO**\n\n\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "dataInicio": "2026-06-17",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "status": "ARQUIVADO",
+      "dataFim": "2027-06-17",
+      "diaVencimento": 1,
+      "unidade": "Apto 06",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1"
+    },
+    {
+      "id": "contrato-1781825427693",
+      "inquilinoId": "inquilino-1781822629148",
+      "overriddenLocadorPix": "341.602.388-90",
+      "observacoesInterrupcao": "Teste",
+      "overriddenEnderecoImovel": "Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apto 06",
+      "profissaoLocatario": "Servidor Público",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apto 06 (Apto 06) Solemar – Solemar - SP que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze) (Doze) meses sendo o inicial em 17/06/2026 e o final no dia 1 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) podendo ter mais 1 pessoa quando devidamente informado e formalizado de forma prévia ao Locador, a não formalização fere o acordo entre as partes sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 1.100,00 (hum mil e cem reais) trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\nRenato Faria Kawano\nNurya Murakami Dogan\n\n**LOCADOR**\n**LOCATÁRIO**\n\n\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "status": "ARQUIVADO",
+      "overriddenLocadorNacionalidade": "brasileiro(a)",
+      "dataFim": "2027-06-17",
+      "overriddenValorAluguel": 1100,
+      "overriddenLocadorConta": "31860-2",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1",
+      "overriddenLocatarioCpf": "028.313.741-03",
+      "overriddenDiaVencimento": 1,
+      "estadoCivilLocatario": "Divorciado(a)",
+      "overriddenLocadorNome": "Renato Faria Kawano",
+      "dataInicio": "2026-06-17",
+      "overriddenLocadorAgencia": "1063",
+      "overriddenLocadorEstadoCivil": "casado(a)",
+      "overriddenLocadorCpf": "341.602.388-90",
+      "diaVencimento": 1,
+      "overriddenLocadorRg": "33698982",
+      "overriddenLocatarioNome": "Nurya Murakami Dogan",
+      "overriddenLocadorResidencia": "Santo André, SP",
+      "unidade": "Apto 06",
+      "overriddenLocadorBanco": "Banco Itaú"
+    },
+    {
+      "id": "contrato-1781825956025",
+      "status": "ARQUIVADO",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "dataInicio": "2026-06-17",
+      "customTemplateContent": "CONTRATO DE LOCAÇÃO RESIDENCIAL DE IMÓVEL\n\nQUALIFICAÇÃO DAS PARTES CONTRATANTES:\nPelo presente instrumento particular do contrato, de um lado, LOCADOR: Renato Faria Kawano, brasileiro(a), casado(a), portador de RG 33698982 e do CPF 341.602.388-90, residente em Santo André, SP; e, de outro lado, LOCATÁRIO: Nurya Murakami Dogan, brasileiro(a), Divorciado(a), portador(a) do RG 1741488-1 e do CPF 028.313.741-03, profissão Servidor Público, celebram entre si o presente contrato de locação residencial, que se rege pelas condições e cláusulas adiante ajustadas.\n\n--PAGE--\n\nCLÁUSULA PRIMEIRA — DO OBJETO E FINALIDADE:\nO locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apto 06 (unidade Apto 06), que é dado em locação residencial ao Locatário para que este use única e exclusivamente para fins Residenciais, fixando sua residência e sua família, vedada a mudança de finalidade.\n\nCLÁUSULA SEGUNDA — DO PRAZO:\nO Prazo de locação será de 12 (Doze) meses, sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, ocasião em que o Locatário se obriga a restituir o imóvel livre de pessoas e pertences.\n\nCLÁUSULA TERCEIRA — DO VALOR DO ALUGUEL:\nO aluguel mensal convencional será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente.\n\nCLÁUSULA QUARTA — DO VENCIMENTO:\nO vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago por meio bancário no Banco Itaú, agência 1063 - Conta 31860-2 ou via PIX: 341.602.388-90.\n\n--PAGE--\n\nCLÁUSULA QUINTA — DA MORA:\nO atraso de pagamento ensejará multa de 10% (dez por cento) e juros de 2% (dois por cento) ao mês.\n\nDO INADIMPLEMENTO:\nNo caso de falta de pagamento, fica o Locador facultado de ajuizar ação de despejo de forma estrita de acordo com a Lei do Inquilinato n° 8.245.\n\nCLÁUSULA SEXTA — DO LIMITE DE OCUPANTES:\nO imóvel será habitado por apenas 01 Pessoa titular, vedada aglomeração sem consentimento.\n\nCLÁUSULA SÉTIMA — DA GARANTIA CAUÇÃO:\nO LOCATÁRIO concorda em antecipar o pagamento de R$ 1.100,00 (hum mil e cem reais), a título de caução exclusiva para preservação e pintura de entrega do imóvel.\n\nFORO DE ELEIÇÃO:\nElegem as partes o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, renunciando a qualquer outro por mais privilegiado que seja.",
+      "observacoesInterrupcao": "Teste",
+      "profissaoLocatario": "Servidor Público",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "rgLocatario": "1741488-1",
+      "imovelId": "imovel-1781730842434",
+      "unidade": "Apto 06",
+      "diaVencimento": 1,
+      "dataFim": "2027-06-17"
+    },
+    {
+      "id": "contrato-1781826340217",
+      "dataFim": "2027-06-17",
+      "diaVencimento": 1,
+      "unidade": "Apto 06",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "profissaoLocatario": "Servidor Público",
+      "observacoesInterrupcao": "Teste",
+      "dataInicio": "2026-06-17",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apto 06 – Solemar - SP que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12(Doze) meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 1.100,00 (hum mil e cem reais) trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\n\n\nRenato Faria Kawano\n**LOCADOR**\n\n\nNurya Murakami Dogan\n**LOCATÁRIO**\n\n\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "status": "ARQUIVADO"
+    },
+    {
+      "id": "contrato-1781826760691",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Solemar, Praia Grande - SP - Unidade: Apartamento 5 (Apartamento 5) Solemar – Solemar - SP que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze) (Doze) meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 1.100,00 (hum mil e cem reais) trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\nRenato Faria Kawano\n\nNurya Murakami Dogan\n\n\n\n**LOCADOR**\n\n\n\n**LOCATÁRIO**\n\n\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "dataInicio": "2026-06-17",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "status": "ARQUIVADO",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "observacoesInterrupcao": "Teste",
+      "profissaoLocatario": "Autônomo",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1",
+      "diaVencimento": 1,
+      "dataFim": "2027-06-17",
+      "unidade": "Apartamento 5"
+    },
+    {
+      "id": "contrato-1781875270542",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Unidade: Apto 06 Solemar, Praia Grande - SP - que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze) meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 1.100,00 (hum mil e cem reais) trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\nRenato Faria Kawano\n\n**LOCADOR**\n\n\n\nNurya Murakami Dogan\n\n**LOCATÁRIO**\n\n\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "dataInicio": "2026-06-17",
+      "status": "ARQUIVADO",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "observacoesInterrupcao": "Teste",
+      "profissaoLocatario": "Servidor Público ",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1",
+      "diaVencimento": 1,
+      "dataFim": "2027-06-17",
+      "unidade": "Apto 06"
+    },
+    {
+      "id": "contrato-1781876455126",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "inquilinoId": "inquilino-1781822629148",
+      "profissaoLocatario": "Servidor Público",
+      "observacoesInterrupcao": "Teste",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2,Unidade: Apto 06 Solemar, Praia Grande - SP  que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze)meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 1.100,00 (hum mil e cem reais) trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\n\nRenato Faria Kawano\n**LOCADOR**\n\n\n\nNurya Murakami Dogan\n**LOCATÁRIO**\n\n\n",
+      "dataInicio": "2026-06-17",
+      "status": "ARQUIVADO",
+      "dataFim": "2027-06-17",
+      "diaVencimento": 1,
+      "unidade": "Apto 06",
+      "imovelId": "imovel-1781730842434",
+      "rgLocatario": "1741488-1"
+    },
+    {
+      "id": "contrato-1781878418172",
+      "status": "ARQUIVADO",
+      "dataInicio": "2026-06-17",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2, Unidade: Apartamento 6, Solemar, Praia Grande - SP - que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze) (Doze) meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$550 (quinhentos e cinquenta reais) trata-se apenas de valor exclusivamente para a pintura e manutenção do imóvel, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor este que não será devolvido na ao término do contrato quando o imóvel locado será entregue ao locador.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\nRenato Faria Kawano\n**LOCADOR**\n\n\n\nNurya Murakami Dogan\n**LOCATÁRIO**\n\n\n\n",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "observacoesInterrupcao": "Teste",
+      "profissaoLocatario": "Servidor Público",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "rgLocatario": "1741488-1",
+      "imovelId": "imovel-1781730842434",
+      "unidade": "Apartamento 6",
+      "diaVencimento": 1,
+      "dataFim": "2027-06-17"
+    },
+    {
+      "id": "contrato-1781880384855",
+      "isDraftManuallyEdited": true,
+      "status": "EM_ONBOARDING",
+      "customTemplateName": "Minuta Corrigida pelo Administrador",
+      "dataInicio": "2026-06-17",
+      "customTemplateContent": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado Renato Faria Kawano, brasileiro(a), casado(a), portador de Rg 33698982 e do CPF 341.602.388-90 residente em Santo André, SP, como locador e de outro o Sr.(a) Nurya Murakami Dogan–, brasileiro(a),Divorciado(a), portador(a) do RG 1741488-1 e do CPF: 028.313.741-03, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2,Unidade: Apartamento 6, Solemar, Praia Grande - SP - que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de 12 (Doze) meses sendo o inicial em 17/06/2026 e o final no dia 17/06/2027, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de R$ 1.100,00 (hum mil e cem reais) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia 1 (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no Banco Itaú, agência 1063 - Conta Corrente 31860-2 ou via PIX: 341.602.388-90. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.100,00 (hum mil e cem reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 550,00 (quinhentos e cinquenta reais) trata-se de valor exclusivamente para a pintura e manutenção, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. O valor não será devolvido ao término do contrato quando o imóvel for entregue ao locador.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\n\nRenato Faria Kawano\n**LOCADOR**\n\n\n\nNurya Murakami Dogan\n**LOCATÁRIO**\n\n\n",
+      "profissaoLocatario": "Servidor Público",
+      "inquilinoId": "inquilino-1781822629148",
+      "estadoCivilLocatario": "Divorciado(a)",
+      "rgLocatario": "1741488-1",
+      "imovelId": "imovel-1781730842434",
+      "unidade": "Apartamento 6",
+      "diaVencimento": 1,
+      "dataFim": "2027-06-17"
+    }
+  ],
+  "faturamentos": [
+    {
+      "id": "fat-gen-1781801423212",
+      "contratoId": "contrato-1781801423212",
+      "valorBase": 1100,
+      "jurosAplicados": 0,
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "status": "PENDENTE",
+      "externalId": "BOL-423212"
+    },
+    {
+      "id": "fat-gen-1781803701243",
+      "contratoId": "contrato-1781803701243",
+      "valorBase": 1100,
+      "jurosAplicados": 0,
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "status": "PENDENTE",
+      "externalId": "BOL-701243"
+    },
+    {
+      "id": "fat-gen-1781805558356",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "status": "PENDENTE",
+      "externalId": "BOL-558356",
+      "contratoId": "contrato-1781805558356",
+      "valorBase": 1100,
+      "jurosAplicados": 0
+    },
+    {
+      "id": "fat-gen-1781822781160",
+      "status": "PENDENTE",
+      "externalId": "BOL-781160",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "jurosAplicados": 0,
+      "contratoId": "contrato-1781822781160",
+      "valorBase": 1100
+    },
+    {
+      "id": "fat-gen-1781824171547",
+      "status": "PENDENTE",
+      "externalId": "BOL-171547",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "jurosAplicados": 0,
+      "valorBase": 1100,
+      "contratoId": "contrato-1781824171547"
+    },
+    {
+      "id": "fat-gen-1781825427693",
+      "jurosAplicados": 0,
+      "contratoId": "contrato-1781825427693",
+      "valorBase": 1100,
+      "status": "PENDENTE",
+      "externalId": "BOL-427693",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0
+    },
+    {
+      "id": "fat-gen-1781825956025",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "status": "PENDENTE",
+      "externalId": "BOL-956025",
+      "contratoId": "contrato-1781825956025",
+      "valorBase": 1100,
+      "jurosAplicados": 0
+    },
+    {
+      "id": "fat-gen-1781826340217",
+      "externalId": "BOL-340217",
+      "status": "PENDENTE",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "jurosAplicados": 0,
+      "contratoId": "contrato-1781826340217",
+      "valorBase": 1100
+    },
+    {
+      "id": "fat-gen-1781826760691",
+      "jurosAplicados": 0,
+      "contratoId": "contrato-1781826760691",
+      "valorBase": 1100,
+      "status": "PENDENTE",
+      "externalId": "BOL-760691",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0
+    },
+    {
+      "id": "fat-gen-1781875270542",
+      "jurosAplicados": 0,
+      "contratoId": "contrato-1781875270542",
+      "valorBase": 1100,
+      "externalId": "BOL-270542",
+      "status": "PENDENTE",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0
+    },
+    {
+      "id": "fat-gen-1781876455126",
+      "status": "PENDENTE",
+      "externalId": "BOL-455126",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "jurosAplicados": 0,
+      "contratoId": "contrato-1781876455126",
+      "valorBase": 1100
+    },
+    {
+      "id": "fat-gen-1781878418172",
+      "jurosAplicados": 0,
+      "valorBase": 1100,
+      "contratoId": "contrato-1781878418172",
+      "status": "PENDENTE",
+      "externalId": "BOL-418172",
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0
+    },
+    {
+      "id": "fat-gen-1781880384855",
+      "contratoId": "contrato-1781880384855",
+      "valorBase": 1100,
+      "jurosAplicados": 0,
+      "dataVencimento": "2026-06-01",
+      "multaAplicada": 0,
+      "status": "PENDENTE",
+      "externalId": "BOL-384855"
+    }
+  ],
+  "despesas": [
+    {
+      "id": "desp-1781731120101",
+      "descricao": "Conta de água SABESP referente ao imóvel Rua Sayao, 223 - Casa 2, com vencimento em 10/06/2026.",
+      "mesAno": "2026-05",
+      "aiComentario": "Análise: O consumo de água registrado no período foi de 6 m³, mantendo-se em um nível baixo e condizente com um perfil de consumo residencial normal. O valor total da fatura (R$ 343,30) apresenta-se significativamente elevado em relação ao custo do serviço de água e esgoto (R$ 83,55), devido à inclusão de uma taxa de 'Serviços ref. lig. água' no valor de R$ 259,33. Recomenda-se verificar se este serviço extra foi solicitado ou se trata de alguma taxa pontual de manutenção/religação para evitar custos não recorrentes em faturas futuras.",
+      "imovelId": "imovel-1781730842434",
+      "arquivoNome": "fatura Sabesp .pdf",
+      "arquivoBase64": "[Conteúdo Excedente Omitido no Firestore - Arquivo Salvo Localmente]",
+      "dataDespesa": "2026-06-10",
+      "categoria": "AGUA",
+      "valor": 343.3
+    }
+  ],
+  "repasses": [],
+  "aiTrainingPatterns": [
+    {
+      "id": "seed-pattern-1",
+      "dadosSaneados": {
+        "aiComentario": "Gabarito calibrado e verificado pelo proprietário no formulário de novos cadastros.",
+        "cpf": "345.918.421-12",
+        "rg": "MG-12.451.992",
+        "status": "COMPATIVEL",
+        "endereco": "Av. Paulista, 1200, Bela Vista, São Paulo, SP",
+        "email": "renatokawano1986@gmail.com",
+        "nome": "Renato Faria Kawano"
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 17/06/2026. Documento: CNH DIGITAL - RFK.pdf. Reconhecimento de perfil de Renato Faria Kawano (Não especificado) com renda média de R$ 0.",
+      "conteudoTextoPattern": "Renato Faria Kawano",
+      "nomeArquivoPattern": "cnh_renato_kawano",
+      "tipoDocumento": "CNH",
+      "createdAt": "2026-06-17T20:15:52.515Z"
+    },
+    {
+      "id": "seed-pattern-2",
+      "dadosSaneados": {
+        "endereco": "Rua Augusta, 420, Consolação, São Paulo, SP",
+        "rg": "44.192.302-1",
+        "cpf": "289.444.112-98",
+        "email": "mariana.silva@outlook.com",
+        "nome": "Mariana Silva de Souza",
+        "rendaMensal": 9500
+      },
+      "observacoesTreinamento": "RG SSP/SP do proponente Mariana Silva de Souza.",
+      "conteudoTextoPattern": "Mariana Silva de Souza",
+      "tipoDocumento": "RG",
+      "nomeArquivoPattern": "rg_mariana_silva",
+      "createdAt": "2026-06-17T20:15:52.515Z"
+    },
+    {
+      "id": "pattern-auto-1781731750011-133",
+      "createdAt": "2026-06-17T21:29:10.011Z",
+      "conteudoTextoPattern": "NURYA MURAKAMI DOGAN",
+      "tipoDocumento": "RG",
+      "nomeArquivoPattern": "BC4CFAB5-401A-4896-B813-EEF0D68585C3",
+      "observacoesTreinamento": "Aprendizado Automático de IA em 18/06/2026. Documento: Rg.pdf. Reconhecimento de perfil de NURYA MURAKAMI DOGAN (Não informado) com renda média de R$ 4.000.",
+      "dadosSaneados": {
+        "aiComentario": "O documento RG foi analisado e todas as informações extraídas (nome, CPF, RG, data de nascimento) são consistentes internamente. Não foram detectadas inconsistências ou sinais de falsificação no documento. A renda bruta simulada de R$ 4.000,00 resulta em uma proporção de aluguel para renda de 27.5%, que está dentro do limite ideal de 30%. O histórico simulado de crédito e antecedentes criminais é limpo.",
+        "grossIncome": 4000,
+        "bankStatementAnalysis": {
+          "zeroBalancePeriods": "Nenhum extrato bancário ou de Uber foi detectado para análise.",
+          "behavioralRiskAnalysis": "Nenhum extrato bancário ou de Uber foi detectado para análise.",
+          "netMonthlyBalance": 0,
+          "withdrawalPattern": "Nenhum extrato bancário ou de Uber foi detectado para análise.",
+          "identifiedInconsistencies": "Nenhum extrato bancário ou de Uber foi detectado para análise.",
+          "totalInflow": 0,
+          "totalOutflow": 0,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Nenhum extrato de Uber foi detectado para análise."
+          },
+          "detectedBankStatement": false
+        },
+        "rendaMensal": 4000,
+        "nome": "NURYA MURAKAMI DOGAN",
+        "profissao": "Não informado"
+      }
+    },
+    {
+      "id": "pattern-auto-1781731773662-294",
+      "createdAt": "2026-06-17T21:29:33.662Z",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "NU_95482125_01ABR2026_30ABR2026",
+      "conteudoTextoPattern": "NU_95482125_01ABR2026_30ABR2026",
+      "observacoesTreinamento": "Aprendizado Automático de IA em 17/06/2026. Documento: NU_95482125_01ABR2026_30ABR2026.pdf. Reconhecimento de perfil de autônomo (Servidora Pública Municipal (Prefeitura)) com renda média de R$ 1.800.",
+      "dadosSaneados": {
+        "bankStatementAnalysis": {
+          "totalInflow": 3522,
+          "totalOutflow": 3400,
+          "uberDriverSpecificMetrics": {
+            "revenueUnderestimationRisk": "Não aplicável.",
+            "isUberStatement": false
+          },
+          "detectedBankStatement": true,
+          "zeroBalancePeriods": "Frequentes. A conta apresenta saldos residuais baixos (frequentemente abaixo de R$ 50) ao final de cada ciclo mensal.",
+          "behavioralRiskAnalysis": "O proponente apresenta um perfil de alta alavancagem, com comprometimento de renda muito superior ao ideal para o valor do aluguel. A dependência de transferências de terceiros e a falta de reserva de liquidez indicam risco de inadimplência.",
+          "netMonthlyBalance": 122,
+          "withdrawalPattern": "Padrão de consumo imediato. O saldo é consumido quase integralmente por pagamentos de faturas e transferências via Pix logo após o recebimento dos créditos.",
+          "identifiedInconsistencies": "Nenhuma inconsistência física ou de edição detectada. Os documentos são consistentes entre si e com as movimentações cruzadas entre as instituições.",
+          "monthlyMovements": [
+            {
+              "balance": 33.41,
+              "month": "Abril/2026",
+              "outflow": 1899.59,
+              "description": "Movimentação concentrada em pagamentos de faturas e transferências de pequeno valor.",
+              "inflow": 1933
+            },
+            {
+              "description": "Saldo negativo no período Nubank, compensado por movimentações em conta Bradesco.",
+              "inflow": 2122.32,
+              "month": "Maio/2026",
+              "balance": -685,
+              "outflow": 2807.32
+            }
+          ]
+        },
+        "periodoReferencia": "Abril/2026 a Maio/2026",
+        "cnpjEmpregador": "N/A",
+        "monthlyMovements": [
+          {
+            "month": "Abril/2026",
+            "balance": 33.41,
+            "outflow": 1899.59,
+            "description": "Movimentação concentrada em pagamentos de faturas e transferências de pequeno valor.",
+            "inflow": 1933
+          },
+          {
+            "description": "Saldo negativo no período Nubank, compensado por movimentações em conta Bradesco.",
+            "inflow": 2122.32,
+            "month": "Maio/2026",
+            "balance": -685,
+            "outflow": 2807.32
+          }
+        ],
+        "grossIncome": 1800,
+        "profissao": "Servidora Pública Municipal (Prefeitura)",
+        "rendaMensal": 1800,
+        "aiComentario": "A análise consolidada dos extratos (Nubank e Bradesco) revela que a proponente possui uma renda principal recorrente proveniente da Prefeitura Est. Balneária de Praia, com depósitos mensais na faixa de R$ 1.580 a R$ 1.600. Adicionalmente, há recebimentos variáveis de terceiros (Brasil Bartender, transferências de CPF próprio) que elevam o faturamento bruto mensal para aproximadamente R$ 1.800. O padrão de movimentação indica alta rotatividade, com saques e transferências imediatas (muitas vezes para contas de terceiros ou pagamento de faturas), resultando em saldos residuais baixos. O valor do aluguel pretendido (R$ 1.100) compromete cerca de 61% da renda bruta identificada, o que é considerado de alto risco financeiro, superando o limite recomendado de 30%.",
+        "status": "REVISAO",
+        "empresaEmissora": "Prefeitura Est. Balneária de Praia"
+      }
+    },
+    {
+      "id": "pattern-auto-1781732052594-593",
+      "dadosSaneados": {
+        "empresaEmissora": "Diversas fontes pagadoras (e.g., Prefeitura Est. Balneária de Praia, Connect Bartenders Ltda, Banco Daycoval S/A)",
+        "status": "INCONSISTENTE",
+        "aiComentario": "A análise dos extratos bancários de Março, Abril e Maio de 2026 revela um perfil de renda autônoma altamente variável e inconsistente. O proponente demonstra dependência de transferências entre contas próprias e uso frequente de \"Pix no Crédito\", o que indica uma gestão de fluxo de caixa apertada e possível necessidade de alavancagem de crédito para cobrir despesas. O rendimento médio mensal bruto ajustado, desconsiderando transferências internas e adiantamentos de crédito, é de R$ 1.691,62. Este valor representa 65,02% do valor do aluguel proposto (R$ 1.100), excedendo significativamente o limite ideal de 30%, o que configura um alto risco de inadimplência. O comportamento de saques e pagamentos é imediato após as entradas, resultando em saldos finais baixos ou negativos na maioria dos meses.",
+        "rendaMensal": 1691.62,
+        "profissao": "Autônomo",
+        "grossIncome": 1691.62,
+        "cnpjEmpregador": "Não aplicável para um único empregador",
+        "monthlyMovements": [
+          {
+            "outflow": 3402.83,
+            "month": "Março/2026",
+            "balance": -1997.8,
+            "description": "Recebimentos diversos de autônomo, incluindo R$ 1.000,01 do Banco Daycoval e R$ 175,00 da Connect Bartenders. Alto volume de saídas e uso de Pix no Crédito.",
+            "inflow": 1405.03
+          },
+          {
+            "description": "Principal recebimento de R$ 1.580,60 da Prefeitura Est. Balneária de Praia. Mês com saldo positivo.",
+            "inflow": 1680.6,
+            "outflow": 247.5,
+            "month": "Abril/2026",
+            "balance": 1433.1
+          },
+          {
+            "description": "Recebimentos variados, incluindo R$ 472,80 da Prefeitura Est. Balneária de Praia e R$ 390,00 da Connect Bartenders. Mês com alto volume de saídas e saldo negativo.",
+            "inflow": 1989.22,
+            "balance": -995.37,
+            "month": "Maio/2026",
+            "outflow": 2984.59
+          },
+          {
+            "description": "Mês parcial com entradas mínimas e saídas elevadas, indicando dependência de outros recursos ou contas não apresentadas.",
+            "inflow": 0.04,
+            "month": "Junho/2026",
+            "balance": -1622.37,
+            "outflow": 1622.41
+          }
+        ],
+        "periodoReferencia": "Últimos 3 meses (Março/2026, Abril/2026, Maio/2026)",
+        "bankStatementAnalysis": {
+          "totalInflow": 1691.62,
+          "totalOutflow": 2211.64,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável, pois não são extratos específicos da Uber. As transações relacionadas à Uber são de uso do serviço, não de faturamento como motorista."
+          },
+          "detectedBankStatement": true,
+          "zeroBalancePeriods": "Os saldos finais dos meses são geralmente baixos em relação ao volume de transações, e há períodos em que as contas se aproximam de saldos mínimos após saídas significativas. O alto número de pequenas transações e adiantamentos de crédito sugere um fluxo de caixa apertado.",
+          "behavioralRiskAnalysis": "O proponente exibe um comportamento financeiro de alto risco devido à renda inconsistente, dependência frequente de adiantamentos de crédito (\"Pix no Crédito\") e um padrão de gastos que muitas vezes excede as entradas externas reais, levando a saldos líquidos negativos em dois dos três meses completos analisados. O alto volume de pequenas transações e transferências entre contas pessoais sugere uma gestão de fluxo de caixa ativa, mas potencialmente tensa. A relação aluguel-renda (65,02%) é extremamente alta, indicando um ônus financeiro significativo em relação à renda identificada.",
+          "netMonthlyBalance": -519.99,
+          "withdrawalPattern": "O proponente frequentemente transfere fundos entre suas próprias contas (Nubank e Bradesco), sugerindo uma gestão ativa da liquidez. Há muitas pequenas compras e transferências, e pagamentos significativos de faturas. O uso frequente de \"Pix no Crédito\" indica dependência de crédito para gerenciar o fluxo de caixa.",
+          "identifiedInconsistencies": "Não foram encontradas inconsistências físicas de edição ou erros matemáticos nos totais fornecidos em cada extrato. No entanto, o padrão de renda é altamente inconsistente e depende fortemente de transferências entre contas próprias e adiantamentos de crédito, dificultando a determinação de uma renda bruta estável.",
+          "monthlyMovements": [
+            {
+              "outflow": 3402.83,
+              "month": "Março/2026",
+              "balance": -1997.8,
+              "description": "Recebimentos diversos de autônomo, incluindo R$ 1.000,01 do Banco Daycoval e R$ 175,00 da Connect Bartenders. Alto volume de saídas e uso de Pix no Crédito.",
+              "inflow": 1405.03
+            },
+            {
+              "outflow": 247.5,
+              "balance": 1433.1,
+              "month": "Abril/2026",
+              "description": "Principal recebimento de R$ 1.580,60 da Prefeitura Est. Balneária de Praia. Mês com saldo positivo.",
+              "inflow": 1680.6
+            },
+            {
+              "balance": -995.37,
+              "month": "Maio/2026",
+              "outflow": 2984.59,
+              "description": "Recebimentos variados, incluindo R$ 472,80 da Prefeitura Est. Balneária de Praia e R$ 390,00 da Connect Bartenders. Mês com alto volume de saídas e saldo negativo.",
+              "inflow": 1989.22
+            },
+            {
+              "description": "Mês parcial com entradas mínimas e saídas elevadas, indicando dependência de outros recursos ou contas não apresentadas.",
+              "inflow": 0.04,
+              "balance": -1622.37,
+              "month": "Junho/2026",
+              "outflow": 1622.41
+            }
+          ]
+        }
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 17/06/2026. Documento: NU_95482125_01MAI2026_31MAI2026.pdf. Reconhecimento de perfil de autônomo (Autônomo) com renda média de R$ 1.691,62.",
+      "createdAt": "2026-06-17T21:34:12.594Z",
+      "conteudoTextoPattern": "NU_95482125_01MAI2026_31MAI2026",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "NU_95482125_01MAI2026_31MAI2026"
+    },
+    {
+      "id": "pattern-auto-1781746125099-316",
+      "createdAt": "2026-06-18T01:28:45.099Z",
+      "conteudoTextoPattern": "4acace18-5b2a-4db0-a8a1-85bfc13e0278",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "4acace18-5b2a-4db0-a8a1-85bfc13e0278",
+      "observacoesTreinamento": "Aprendizado Automático de IA em 18/06/2026. Documento: 4acace18-5b2a-4db0-a8a1-85bfc13e0278.pdf. Reconhecimento de perfil de autônomo (Autônomo) com renda média de R$ 4.530,89.",
+      "dadosSaneados": {
+        "profissao": "Autônomo",
+        "rendaMensal": 4530.89,
+        "bankStatementAnalysis": {
+          "detectedBankStatement": true,
+          "totalOutflow": 8425.58,
+          "uberDriverSpecificMetrics": {
+            "revenueUnderestimationRisk": "Não aplicável, pois não há evidências de que o proponente seja motorista Uber. As transações com Uber são de baixo valor, indicando uso como passageiro.",
+            "isUberStatement": false
+          },
+          "totalInflow": 8615.52,
+          "monthlyMovements": [
+            {
+              "outflow": 3802.83,
+              "balance": 728.06,
+              "month": "Março/2026",
+              "description": "Total de entradas e saídas do mês. Entradas compostas majoritariamente por transferências entre contas próprias e adições via cartão de crédito, além de recebimentos de CONNECT BARTENDERS LTDA e Banco Daycoval S/A.",
+              "inflow": 4530.89
+            },
+            {
+              "description": "Movimentação parcial do mês, com entradas e saídas significativas, incluindo transferências da PREFEITURA EST BALNEARIA DE PRAI e para contas próprias.",
+              "inflow": 1700.6,
+              "balance": -467,
+              "month": "Abril/2026",
+              "outflow": 2167.6
+            },
+            {
+              "balance": -870.11,
+              "month": "Maio/2026",
+              "outflow": 1407.04,
+              "description": "Movimentação do mês, com entradas de RD SAUDE e PREFEITURA EST BALNEARIA DE PRAI, e diversas saídas para despesas e transferências.",
+              "inflow": 536.93
+            },
+            {
+              "outflow": 1048.11,
+              "balance": 798.99,
+              "month": "Junho/2026",
+              "description": "Movimentação parcial do mês, com entradas da PREFEITURA EST BALNEARIA DE PRAI e saídas para transferências e despesas.",
+              "inflow": 1847.1
+            }
+          ],
+          "identifiedInconsistencies": "Nenhuma incoerência física de edição encontrada. Inconsistências financeiras na identificação de renda recorrente devido a alta proporção de transferências entre contas próprias e adições via cartão de crédito, e a natureza ambígua das transações da 'PREFEITURA EST BALNEARIA DE PRAI' e Banco Daycoval S/A.",
+          "withdrawalPattern": "Padrão de saques e transferências imediatas após as entradas, indicando baixa retenção de saldo e alta liquidez para despesas correntes.",
+          "behavioralRiskAnalysis": "Proponente com perfil de consumo de risco devido à baixa retenção de saldo e dependência de múltiplas fontes de entrada, muitas delas não recorrentes ou de difícil classificação como renda. A gestão de fluxo de caixa parece ser feita através de transferências constantes entre contas e uso de crédito. A renda líquida recorrente é insuficiente para cobrir o aluguel proposto de R$ 1.100,00 de forma confortável, apesar da relação percentual bruta estar dentro do limite.",
+          "zeroBalancePeriods": "Frequentes. O saldo da conta Bradesco apresenta períodos com valores muito baixos, enquanto o Nubank, apesar de um saldo final maior em Março, mostra intensa movimentação diária que pode levar a baixos saldos pontuais.",
+          "netMonthlyBalance": 47.49
+        },
+        "monthlyMovements": [
+          {
+            "balance": 728.06,
+            "month": "Março/2026",
+            "outflow": 3802.83,
+            "description": "Total de entradas e saídas do mês. Entradas compostas majoritariamente por transferências entre contas próprias e adições via cartão de crédito, além de recebimentos de CONNECT BARTENDERS LTDA e Banco Daycoval S/A.",
+            "inflow": 4530.89
+          },
+          {
+            "description": "Movimentação parcial do mês, com entradas e saídas significativas, incluindo transferências da PREFEITURA EST BALNEARIA DE PRAI e para contas próprias.",
+            "inflow": 1700.6,
+            "balance": -467,
+            "month": "Abril/2026",
+            "outflow": 2167.6
+          },
+          {
+            "outflow": 1407.04,
+            "month": "Maio/2026",
+            "balance": -870.11,
+            "description": "Movimentação do mês, com entradas de RD SAUDE e PREFEITURA EST BALNEARIA DE PRAI, e diversas saídas para despesas e transferências.",
+            "inflow": 536.93
+          },
+          {
+            "outflow": 1048.11,
+            "month": "Junho/2026",
+            "balance": 798.99,
+            "description": "Movimentação parcial do mês, com entradas da PREFEITURA EST BALNEARIA DE PRAI e saídas para transferências e despesas.",
+            "inflow": 1847.1
+          }
+        ],
+        "cnpjEmpregador": "Não aplicável",
+        "grossIncome": 4530.89,
+        "periodoReferencia": "Março/2026 (principal) e Abril-Junho/2026 (complementar)",
+        "empresaEmissora": "Diversas fontes (Autônomo)",
+        "status": "REVISAO",
+        "aiComentario": "A análise dos extratos bancários do Bradesco (Abril-Junho/2026) e Nubank (Março/2026) revela um perfil financeiro de autônomo com múltiplas fontes de entrada e alta movimentação entre contas próprias. O valor de R$ 4.530,89, referente ao 'Total de entradas' do Nubank em Março/2026, foi considerado como renda bruta para fins de cálculo, porém, é crucial notar que uma parcela significativa deste valor (aproximadamente R$ 2.494,00) corresponde a transferências entre contas da própria proponente e adições via cartão de crédito (aproximadamente R$ 731,86), não representando renda externa recorrente. As entradas externas identificadas incluem R$ 175,00 da CONNECT BARTENDERS LTDA (CNPJ: 17.426.810/0001-07) e R$ 1.000,01 do Banco Daycoval S/A (CNPJ: 62.232.889/0001-90), cuja natureza é ambígua (possivelmente empréstimo ou investimento). No extrato Bradesco, as maiores entradas são da 'PREFEITURA EST BALNEARIA DE PRAI', mas são acompanhadas de saídas de valores similares para a mesma entidade, sugerindo um fluxo de caixa operacional ou pass-through, e não renda líquida. A renda líquida real e recorrente é substancialmente inferior ao total de entradas brutas. A relação aluguel/renda bruta (R$ 1.100 / R$ 4.530,89 = 24,28%) está dentro do limite ideal, mas o perfil de movimentação e a baixa renda líquida recorrente identificada indicam um risco elevado."
+      }
+    },
+    {
+      "id": "pattern-auto-1781822601644-384",
+      "nomeArquivoPattern": "holerite_055956042026",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "conteudoTextoPattern": "holerite_055956042026",
+      "createdAt": "2026-06-18T22:43:21.644Z",
+      "dadosSaneados": {
+        "bankStatementAnalysis": {
+          "totalOutflow": 0,
+          "detectedBankStatement": false,
+          "totalInflow": 0,
+          "withdrawalPattern": "Não aplicável, pois não há extrato bancário para análise.",
+          "identifiedInconsistencies": "Nenhuma inconsistência física ou de edição encontrada no holerite.",
+          "monthlyMovements": [],
+          "netMonthlyBalance": 0,
+          "zeroBalancePeriods": "Não aplicável, pois não há extrato bancário para análise.",
+          "behavioralRiskAnalysis": "Não aplicável, pois não há extrato bancário para análise de comportamento financeiro."
+        },
+        "periodoReferencia": "Abril/2026",
+        "cnpjEmpregador": "46.177.531/0001-55",
+        "grossIncome": 2364,
+        "monthlyMovements": [],
+        "profissao": "Servente II",
+        "rendaMensal": 2364,
+        "aiComentario": "O holerite apresentado para Nurya Murakami Dogan é referente à competência de Abril/2026, com remuneração bruta de R$ 2.364,00. A função declarada é Servente II. O documento possui um hash de autenticidade digital (b3dc888bbe72d2593837eb20951c794e) e data de emissão (08-05-2026 11:57:26), indicando sua validade. Os descontos incluem adiantamento e FPGPREV, resultando em um valor líquido de R$ 1.580,60. A renda bruta de R$ 2.364,00 representa 214.91% do valor do aluguel de R$ 1.100,00, excedendo o limite ideal de 30% da renda bruta para despesas com moradia. Recomenda-se cautela na análise de capacidade de pagamento do aluguel.",
+        "status": "REVISAO",
+        "empresaEmissora": "Municipio da Estancia Balnearia de Praia Grande"
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 18/06/2026. Documento: holerite_055956042026.pdf. Reconhecimento de perfil de autônomo (Servente II) com renda média de R$ 2.364."
+    },
+    {
+      "id": "pattern-auto-1781822612929-711",
+      "createdAt": "2026-06-18T22:43:32.929Z",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "NU_95482125_01MAR2026_31MAR2026",
+      "conteudoTextoPattern": "NU_95482125_01MAR2026_31MAR2026",
+      "dadosSaneados": {
+        "bankStatementAnalysis": {
+          "behavioralRiskAnalysis": "O proponente demonstra um perfil de alto risco financeiro. A gestão de fundos é complexa, com frequentes transferências entre contas próprias e dependência de adiantamentos via cartão de crédito para compor o fluxo de caixa. A ausência de uma fonte de renda estável e comprovada, aliada às inconsistências matemáticas no extrato, sugere fragilidade financeira e potencial manipulação documental. O baixo nível de renda externa identificável é insuficiente para cobrir despesas básicas, como o aluguel proposto.",
+          "zeroBalancePeriods": "Embora o saldo não atinja zero, a conta opera com valores baixos, com o saldo inicial de R$ 173,79 e final de R$ 901,85, indicando pouca reserva financeira ao longo do mês.",
+          "netMonthlyBalance": 728.06,
+          "withdrawalPattern": "O proponente realiza transferências frequentes entre contas próprias e utiliza adiantamentos de cartão de crédito para gerenciar o fluxo de caixa. Há um padrão de consumo imediato dos fundos disponíveis, com o saldo permanecendo relativamente baixo.",
+          "identifiedInconsistencies": "Inconsistências matemáticas nos subtotais de \"Total de saídas\" para 23 MAR 2026 (R$ -140,07 listado, mas transações somam R$ 0,02) e 30 MAR 2026 (R$ -32,97 listado, mas transação soma R$ 0,01).",
+          "monthlyMovements": [
+            {
+              "month": "Março/2026",
+              "balance": 728.06,
+              "outflow": 3802.83,
+              "description": "Movimentação financeira com múltiplas transferências internas e adições via cartão de crédito. Baixo volume de entradas de renda externa identificável. Inconsistências nos totais de saídas.",
+              "inflow": 4530.89
+            }
+          ],
+          "totalInflow": 4530.89,
+          "totalOutflow": 3802.83,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável, pois não é um extrato específico da Uber. As saídas para Uber indicam uso do serviço, não faturamento como motorista."
+          },
+          "detectedBankStatement": true
+        },
+        "monthlyMovements": [
+          {
+            "month": "Março/2026",
+            "balance": 728.06,
+            "outflow": 3802.83,
+            "description": "Movimentação financeira com múltiplas transferências internas e adições via cartão de crédito. Baixo volume de entradas de renda externa identificável. Inconsistências nos totais de saídas.",
+            "inflow": 4530.89
+          }
+        ],
+        "grossIncome": 1255.03,
+        "cnpjEmpregador": "Não aplicável",
+        "periodoReferencia": "Março/2026",
+        "profissao": "Autônomo",
+        "rendaMensal": 1255.03,
+        "status": "INCONSISTENTE",
+        "aiComentario": "O extrato bancário do Nubank para Nurya Murakami Dogan, referente a Março/2026, apresenta um total de entradas de R$ 4.530,89 e saídas de R$ 3.802,83, resultando em um saldo final de R$ 901,85. No entanto, uma análise detalhada revela que grande parte das entradas são transferências entre contas do próprio proponente (R$ 2.494,00) ou adições de valor via cartão de crédito (R$ 731,86), que não representam renda nova. O estorno de R$ 50,00 também não é renda. A renda bruta mensal identificável de fontes externas e não-recorrentes totaliza R$ 1.255,03 (incluindo R$ 80,00 de Marbein Murakami Dogan, R$ 175,00 de Connect Bartenders Ltda e R$ 1.000,01 de Banco Daycoval S/A). Esta renda é significativamente baixa e não demonstra recorrência. Foram identificadas inconsistências matemáticas nos subtotais de \"Total de saídas\" para 23 MAR 2026 (R$ -140,07 listado, mas transações somam R$ 0,02) e 30 MAR 2026 (R$ -32,97 listado, mas transação soma R$ 0,01), o que levanta sérias dúvidas sobre a autenticidade ou integridade do documento. A relação aluguel/renda (R$ 1100 / R$ 1255,03) é de aproximadamente 87,6%, muito acima do limite ideal de 30%.",
+        "empresaEmissora": "Diversas fontes"
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 18/06/2026. Documento: NU_95482125_01MAR2026_31MAR2026.pdf. Reconhecimento de perfil de autônomo (Autônomo) com renda média de R$ 1.255,03."
+    },
+    {
+      "id": "pattern-auto-1783560924721-812",
+      "dadosSaneados": {
+        "nome": "ANDERSON FERREIRA DE SOUZA",
+        "aiComentario": "O documento de identidade (RG Digital de SP) de Anderson Ferreira de Souza foi validado com sucesso e possui assinatura digital ICP-Brasil. No entanto, não foram enviados comprovantes de rendimentos (holerites ou extratos bancários) para validar a renda mensal frente ao aluguel de R$ 1.100,00. É necessária a solicitação de comprovantes de renda para análise de crédito completa.",
+        "bankStatementAnalysis": {
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável."
+          },
+          "totalOutflow": 0,
+          "detectedBankStatement": false,
+          "totalInflow": 0,
+          "withdrawalPattern": "Não aplicável. Nenhum extrato bancário foi enviado.",
+          "identifiedInconsistencies": "Nenhuma. Extrato bancário não fornecido.",
+          "netMonthlyBalance": 0,
+          "zeroBalancePeriods": "Não aplicável.",
+          "behavioralRiskAnalysis": "Não aplicável devido à ausência de extrato bancário."
+        },
+        "profissao": "Não identificado"
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 09/07/2026. Documento: Id - Nome civil ANDERSON FERREIRA DE SOUZA.pdf. Reconhecimento de perfil de ANDERSON FERREIRA DE SOUZA (Não identificado) com renda média de R$ 0.",
+      "tipoDocumento": "RG",
+      "nomeArquivoPattern": "Id - Nome civil ANDERSON FERREIRA DE SOUZA",
+      "conteudoTextoPattern": "ANDERSON FERREIRA DE SOUZA",
+      "createdAt": "2026-07-09T01:35:24.721Z"
+    },
+    {
+      "id": "pattern-auto-1783561118728-735",
+      "observacoesTreinamento": "Aprendizado Automático de IA em 09/07/2026. Documento: CTPSDigital_Nome civil ANDERSON FERREIRA DE SOUZA.pdf. Reconhecimento de perfil de autônomo (Alpinista) com renda média de R$ 2.801,98.",
+      "dadosSaneados": {
+        "empresaEmissora": "BSF INFRAESTRUTURA & ENGENHARIA LTDA",
+        "status": "REVISAO",
+        "aiComentario": "O proponente Anderson Ferreira de Souza possui contrato de trabalho ativo iniciado em 01/05/2026 na empresa BSF Infraestrutura & Engenharia Ltda, sob o cargo de Alpinista, com salário contratual bruto de R$ 2.801,98. A análise dos extratos bancários de Maio e Junho de 2026 confirma o recebimento de valores da fonte pagadora (R$ 2.178,00 em Maio e R$ 3.609,02 em Junho, este último possivelmente acrescido de horas extras ou benefícios). Contudo, o valor do aluguel pretendido de R$ 1.100,00 compromete 39,25% da renda bruta contratual, o que excede o limite ideal de 30%. Adicionalmente, a conta bancária apresenta um perfil de altíssimo risco comportamental, caracterizado por dezenas de transações diárias voltadas a plataformas de apostas online (Betnacional, Univebet, Ganha Sorte) e esvaziamento imediato de saldo, mantendo uma reserva financeira residual nula (saldo final constante de R$ 70,00). Recomendamos a solicitação de garantias adicionais ou fiador devido ao risco de inadimplência.",
+        "rendaMensal": 2801.98,
+        "profissao": "Alpinista",
+        "cnpjEmpregador": "65.515.988/0001-77",
+        "grossIncome": 2801.98,
+        "monthlyMovements": [
+          {
+            "balance": 70.01,
+            "month": "Maio/2026",
+            "outflow": 4563.95,
+            "description": "Entradas diversas incluindo R$ 2.178,00 da BSF Infraestrutura e múltiplos créditos de menor valor. Saídas imediatas para apostas e transferências pessoais.",
+            "inflow": 4563.68
+          },
+          {
+            "description": "Entradas totalizando R$ 8.195,26, com destaque para R$ 3.081,52 da BSF Infraestrutura. Saídas volumosas para conta própria da Caixa (R$ 1.600,00) e terceiros.",
+            "inflow": 8195.26,
+            "outflow": 8195.27,
+            "balance": 70,
+            "month": "Junho/2026"
+          }
+        ],
+        "periodoReferencia": "Maio/2026 a Junho/2026",
+        "bankStatementAnalysis": {
+          "totalInflow": 12758.94,
+          "detectedBankStatement": true,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável."
+          },
+          "totalOutflow": 12759.22,
+          "netMonthlyBalance": -0.28,
+          "zeroBalancePeriods": "Constantes. O saldo livre da conta permanece estagnado em exatamente R$ 70,00 durante quase todo o período analisado, sem qualquer acúmulo de reserva financeira.",
+          "behavioralRiskAnalysis": "Risco comportamental extremamente elevado. O proponente apresenta intensa atividade de consumo em plataformas de apostas esportivas e jogos online (Betnacional, Univebet, Ganha Sorte, etc.), além de esvaziamento imediato do fluxo de caixa operacional da conta. O comprometimento da renda contratual com o aluguel de R$ 1.100,00 é de 39,25%, superando o limite recomendado de 30%.",
+          "identifiedInconsistencies": "Nenhuma inconsistência física ou indício de adulteração nos documentos. Os dados da CTPS Digital são consistentes com os depósitos identificados nos extratos bancários da BSF.",
+          "monthlyMovements": [
+            {
+              "outflow": 4563.95,
+              "month": "Maio/2026",
+              "balance": 70.01,
+              "description": "Entradas diversas incluindo R$ 2.178,00 da BSF Infraestrutura e múltiplos créditos de menor valor. Saídas imediatas para apostas e transferências pessoais.",
+              "inflow": 4563.68
+            },
+            {
+              "description": "Entradas totalizando R$ 8.195,26, com destaque para R$ 3.081,52 da BSF Infraestrutura. Saídas volumosas para conta própria da Caixa (R$ 1.600,00) e terceiros.",
+              "inflow": 8195.26,
+              "month": "Junho/2026",
+              "balance": 70,
+              "outflow": 8195.27
+            }
+          ],
+          "withdrawalPattern": "Altíssimo giro de saídas imediatas. Praticamente todo o valor que entra na conta é transferido no mesmo dia ou no dia seguinte para outras contas de mesma titularidade (como Caixa Econômica Federal) ou destinado diretamente a plataformas de apostas esportivas."
+        }
+      },
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "CTPSDigital_Nome civil ANDERSON FERREIRA DE SOUZA",
+      "conteudoTextoPattern": "CTPSDigital_Nome civil ANDERSON FERREIRA DE SOUZA",
+      "createdAt": "2026-07-09T01:38:38.728Z"
+    },
+    {
+      "id": "pattern-auto-1784114934440-460",
+      "dadosSaneados": {
+        "empresaEmissora": "Autônomo (Diversos Remetentes Pix)",
+        "status": "REVISAO",
+        "aiComentario": "Análise realizada no extrato da conta Nubank de Dimitri Ramos Dias referente a Maio/2026. O total de entradas brutas é de R$ 5.667,65, porém, após auditoria forense, identificou-se que R$ 2.821,65 correspondem a transferências entre contas do próprio titular (Santander, Caixa, 99Pay) e R$ 120,00 a estornos de Pix. Portanto, a renda real/faturamento do proponente é de R$ 2.726,00, proveniente de depósitos de pessoas físicas (caracterizando atividade autônoma). O aluguel pretendido de R$ 1.100,00 representa 40,35% da renda real, superando o limite recomendado de 30%. Além disso, o saldo final de R$ 8,97 e o comportamento de esvaziamento imediato da conta indicam alto risco de inadimplência. Recomendamos a solicitação de garantias adicionais ou co-devedor.",
+        "profissao": "Autônomo",
+        "rendaMensal": 2726,
+        "bankStatementAnalysis": {
+          "zeroBalancePeriods": "Constantes ao longo do mês. O saldo inicial era de R$ 2,56 e o final de R$ 8,97, indicando que a conta opera no limite de sua capacidade financeira.",
+          "behavioralRiskAnalysis": "Risco comportamental elevado. O proponente apresenta faturamento real de R$ 2.726,00 (descontando R$ 2.821,65 de transferências entre contas próprias e R$ 120,00 de estornos). O valor do aluguel pretendido (R$ 1.100,00) compromete mais de 40% de sua renda real líquida, além de não haver reserva financeira na conta analisada.",
+          "netMonthlyBalance": 6.41,
+          "identifiedInconsistencies": "Nenhuma inconsistência material ou indício de adulteração no documento. O extrato parece autêntico, porém demonstra fragilidade financeira.",
+          "monthlyMovements": [
+            {
+              "description": "Movimentação de Maio/2026 com forte presença de transferências entre contas do próprio titular (R$ 2.821,65) e depósitos de terceiros (Maria Eduarda, Tharcio, Fernando).",
+              "inflow": 5667.65,
+              "balance": 6.41,
+              "month": "Maio/2026",
+              "outflow": 5661.24
+            }
+          ],
+          "withdrawalPattern": "Altíssima taxa de esvaziamento. Praticamente todo o recurso que entra é transferido ou gasto no mesmo período, resultando em saldo final de apenas R$ 8,97.",
+          "totalInflow": 5667.65,
+          "detectedBankStatement": true,
+          "totalOutflow": 5661.24,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável"
+          }
+        },
+        "grossIncome": 2726,
+        "cnpjEmpregador": "Não aplicável",
+        "monthlyMovements": [
+          {
+            "balance": 6.41,
+            "month": "Maio/2026",
+            "outflow": 5661.24,
+            "description": "Movimentação de Maio/2026 com forte presença de transferências entre contas do próprio titular (R$ 2.821,65) e depósitos de terceiros (Maria Eduarda, Tharcio, Fernando).",
+            "inflow": 5667.65
+          }
+        ],
+        "periodoReferencia": "Maio/2026"
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 15/07/2026. Documento: 01 - Dimitri NU MAI2026 (1).pdf. Reconhecimento de perfil de autônomo (Autônomo) com renda média de R$ 2.726.",
+      "conteudoTextoPattern": "01 - Dimitri NU MAI2026 (1)",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "01 - Dimitri NU MAI2026 (1)",
+      "createdAt": "2026-07-15T11:28:54.440Z"
+    },
+    {
+      "id": "pattern-auto-1784114935135-101",
+      "createdAt": "2026-07-15T11:28:55.135Z",
+      "conteudoTextoPattern": "01 - Dimitri NU JUN2026 (1)",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "01 - Dimitri NU JUN2026 (1)",
+      "dadosSaneados": {
+        "aiComentario": "Análise do extrato bancário do Nubank referente a Junho/2026 indica que o proponente Dimitri Ramos Dias possui uma renda bruta mensal de R$ 2.673,56, composta majoritariamente por transferências Pix de diversas pessoas físicas e transferências próprias de outras contas (Caixa e 99Pay). O valor do aluguel pretendido (R$ 1.100,00) representa 41,1% de sua renda bruta, superando significativamente o limite prudencial de 30%. Adicionalmente, o saldo final residual de apenas R$ 10,77 e a sobra líquida de R$ 1,80 no mês indicam um fluxo de caixa extremamente apertado e alto risco de inadimplência.",
+        "status": "REVISAO",
+        "empresaEmissora": "Nu Pagamentos S.A.",
+        "bankStatementAnalysis": {
+          "behavioralRiskAnalysis": "Perfil de altíssimo risco financeiro. O proponente possui renda mensal comprovada de R$ 2.673,56, o que compromete 41,1% de sua renda com o aluguel pretendido de R$ 1.100,00 (acima do limite recomendado de 30%). Além disso, a sobra líquida mensal de apenas R$ 1,80 demonstra incapacidade de absorver qualquer imprevisto financeiro.",
+          "zeroBalancePeriods": "Frequentes. O saldo da conta permanece constantemente próximo a zero, iniciando o mês com R$ 8,97 e finalizando com R$ 10,77.",
+          "netMonthlyBalance": 1.8,
+          "withdrawalPattern": "Altíssima taxa de consumo do saldo. Praticamente todo o recurso que entra é imediatamente gasto ou transferido para consumo diário.",
+          "identifiedInconsistencies": "Nenhuma inconsistência formal ou indício de adulteração detectado no extrato do Nubank.",
+          "monthlyMovements": [
+            {
+              "description": "Movimentação mensal caracterizada por múltiplos depósitos de baixo valor (Pix de pessoas físicas e carteiras digitais como 99Pay) e uma transferência maior da Caixa Econômica, com saídas imediatas para consumo diário.",
+              "inflow": 2673.56,
+              "balance": 1.8,
+              "month": "Junho/2026",
+              "outflow": 2671.76
+            }
+          ],
+          "totalInflow": 2673.56,
+          "totalOutflow": 2671.76,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável."
+          },
+          "detectedBankStatement": true
+        },
+        "periodoReferencia": "Junho/2026",
+        "cnpjEmpregador": "18.236.120/0001-58",
+        "grossIncome": 2673.56,
+        "monthlyMovements": [
+          {
+            "description": "Movimentação mensal caracterizada por múltiplos depósitos de baixo valor (Pix de pessoas físicas e carteiras digitais como 99Pay) e uma transferência maior da Caixa Econômica, com saídas imediatas para consumo diário.",
+            "inflow": 2673.56,
+            "balance": 1.8,
+            "month": "Junho/2026",
+            "outflow": 2671.76
+          }
+        ],
+        "profissao": "Autônomo",
+        "rendaMensal": 2673.56
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 15/07/2026. Documento: 01 - Dimitri NU JUN2026 (1).pdf. Reconhecimento de perfil de autônomo (Autônomo) com renda média de R$ 2.673,56."
+    },
+    {
+      "id": "pattern-auto-1784114948924-406",
+      "dadosSaneados": {
+        "empresaEmissora": "Nu Pagamentos S.A.",
+        "status": "INCONSISTENTE",
+        "aiComentario": "O extrato apresentado cobre apenas 6 dias (01/07/2026 a 06/07/2026) e apresenta um total de entradas de apenas R$ 114,10. Além disso, 100% das entradas são autotransferências (Pix do próprio proponente originados de sua conta na 99PAY IP S.A.), não havendo comprovação de fonte pagadora externa ou renda real. O saldo final é de apenas R$ 4,08. O perfil é totalmente incompatível com o aluguel pretendido de R$ 1.100,00.",
+        "rendaMensal": 114.1,
+        "profissao": "Não Identificado",
+        "cnpjEmpregador": "18.236.120/0001-58",
+        "monthlyMovements": [
+          {
+            "description": "Período parcial de 6 dias analisado. Entradas compostas exclusivamente por autotransferências via Pix da conta 99Pay.",
+            "inflow": 114.1,
+            "outflow": 120.79,
+            "month": "Julho/2026 (Parcial)",
+            "balance": -6.69
+          }
+        ],
+        "grossIncome": 114.1,
+        "periodoReferencia": "01/07/2026 a 06/07/2026",
+        "bankStatementAnalysis": {
+          "totalInflow": 114.1,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável"
+          },
+          "totalOutflow": 120.79,
+          "detectedBankStatement": true,
+          "netMonthlyBalance": -6.69,
+          "behavioralRiskAnalysis": "Risco altíssimo. O proponente não apresenta renda comprovada neste documento, apenas trânsito de valores irrisórios de mesma titularidade. Saldo residual insignificante.",
+          "zeroBalancePeriods": "O saldo permanece constantemente próximo a zero, terminando o período de 6 dias com apenas R$ 4,08.",
+          "withdrawalPattern": "Consumo imediato de pequenos valores para despesas cotidianas (postos de combustível, tabacaria, pequenos mercados).",
+          "monthlyMovements": [
+            {
+              "outflow": 120.79,
+              "balance": -6.69,
+              "month": "Julho/2026 (Parcial)",
+              "description": "Período parcial de 6 dias analisado. Entradas compostas exclusivamente por autotransferências via Pix da conta 99Pay.",
+              "inflow": 114.1
+            }
+          ],
+          "identifiedInconsistencies": "Extrato de curtíssimo período (apenas 6 dias), impossibilitando análise mensal. Todas as entradas são transferências de mesma titularidade (self-transfers) vindas da 99Pay."
+        }
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 15/07/2026. Documento: 01- Dimitri NU JUL2026 (1).pdf. Reconhecimento de perfil de autônomo (Não Identificado) com renda média de R$ 114,1.",
+      "createdAt": "2026-07-15T11:29:08.924Z",
+      "conteudoTextoPattern": "01- Dimitri NU JUL2026 (1)",
+      "nomeArquivoPattern": "01- Dimitri NU JUL2026 (1)",
+      "tipoDocumento": "COMPROVANTE_RENDA"
+    },
+    {
+      "id": "pattern-auto-1784114950257-388",
+      "dadosSaneados": {
+        "empresaEmissora": "Não identificada",
+        "profissao": "Não identificada",
+        "status": "INCONSISTENTE",
+        "monthlyMovements": [],
+        "cnpjEmpregador": "Não identificado",
+        "periodoReferencia": "Não identificado",
+        "aiComentario": "Análise realizada com base em 1 único documento enviado ('01 - Dimitri CNH-e.pdf.pdf'). O documento apresentado trata-se exclusivamente de uma Carteira Nacional de Habilitação (CNH) digital em nome de Dimitri Ramos Dias, não contendo qualquer informação de natureza financeira, holerite, extrato bancário ou declaração de imposto de renda. Portanto, a renda bruta comprovada é de R$ 0,00. Para fins de análise de compatibilidade com o aluguel pretendido de R$ 1.100,00, o status foi definido como INCONSISTENTE devido à ausência total de comprovantes de rendimentos.",
+        "bankStatementAnalysis": {
+          "uberDriverSpecificMetrics": {
+            "revenueUnderestimationRisk": "Não aplicável",
+            "isUberStatement": false
+          },
+          "totalOutflow": 0,
+          "detectedBankStatement": false,
+          "totalInflow": 0,
+          "withdrawalPattern": "Não aplicável devido à ausência de extratos bancários.",
+          "identifiedInconsistencies": "Ausência total de comprovantes de rendimentos. Foi anexado apenas um documento de identificação (CNH).",
+          "monthlyMovements": [],
+          "netMonthlyBalance": 0,
+          "zeroBalancePeriods": "Não aplicável devido à ausência de extratos bancários.",
+          "behavioralRiskAnalysis": "Não é possível realizar a análise de risco comportamental ou financeiro do proponente, uma vez que não foram fornecidos extratos bancários ou outros comprovantes de movimentação financeira."
+        }
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 15/07/2026. Documento: 01 - Dimitri CNH-e.pdf.pdf. Reconhecimento de perfil de autônomo (Não identificada) com renda média de R$ 0.",
+      "nomeArquivoPattern": "01 - Dimitri CNH-e",
+      "tipoDocumento": "CNH",
+      "conteudoTextoPattern": "DIMITRI RAMOS DIAS",
+      "createdAt": "2026-07-15T11:29:10.257Z"
+    },
+    {
+      "id": "pattern-auto-1784126711094-271",
+      "conteudoTextoPattern": "teste_renda",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "teste_renda",
+      "createdAt": "2026-07-15T14:45:11.094Z",
+      "dadosSaneados": {
+        "empresaEmissora": "Trabalho Autônomo / Serviços",
+        "status": "REVISAO",
+        "aiComentario": "Pré-análise consolidada de múltiplos documentos de renda realizada com sucesso (1 documento(s) inserido(s)). A renda média obtida considerando todos os comprovantes é de R$ 3.500,00. Detalhamento de provisões: [Doc 1 (teste_renda.pdf): R$ 3.500,00].",
+        "profissao": "Autônomo",
+        "rendaMensal": 3500,
+        "bankStatementAnalysis": {
+          "zeroBalancePeriods": "Nenhum período prolongado de saldo zerado identificado. Reserva residual preservada na data-base.",
+          "behavioralRiskAnalysis": "Classificado como comportamento estável e prudente. Proponente com capacidade poupadora detectada.",
+          "netMonthlyBalance": 105,
+          "identifiedInconsistencies": "Nenhuma inconsistência ou indício de adulteração digital detectado.",
+          "monthlyMovements": [
+            {
+              "outflow": 3325,
+              "month": "Mês Ref 1",
+              "balance": 175,
+              "description": "Comprovante de renda individual (teste_renda.pdf)",
+              "inflow": 3500
+            }
+          ],
+          "withdrawalPattern": "Movimentação em conta corrente saudável, saques pulverizados condizentes com rotina e provimentos estruturados.",
+          "totalInflow": 3675,
+          "detectedBankStatement": true,
+          "totalOutflow": 3570,
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Não aplicável (perfil com vínculo estável)."
+          }
+        },
+        "monthlyMovements": [
+          {
+            "balance": 175,
+            "month": "Mês Ref 1",
+            "outflow": 3325,
+            "description": "Comprovante de renda individual (teste_renda.pdf)",
+            "inflow": 3500
+          }
+        ],
+        "cnpjEmpregador": "12.390.410/0001-44",
+        "grossIncome": 3500,
+        "periodoReferencia": "1 Documento(s) consolidado(s)"
+      },
+      "observacoesTreinamento": "Aprendizado Automático de IA em 15/07/2026. Documento: teste_renda.pdf. Reconhecimento de perfil de autônomo (Autônomo) com renda média de R$ 3.500."
+    },
+    {
+      "id": "pattern-auto-1784126725423-34",
+      "createdAt": "2026-07-15T14:45:25.423Z",
+      "tipoDocumento": "COMPROVANTE_RENDA",
+      "nomeArquivoPattern": "documento",
+      "conteudoTextoPattern": "Renato Kawano",
+      "observacoesTreinamento": "Aprendizado Automático de IA em 15/07/2026. Documento: documento.pdf. Reconhecimento de perfil de Renato Kawano (Não informado) com renda média de R$ 0.",
+      "dadosSaneados": {
+        "profissao": "Não informado",
+        "bankStatementAnalysis": {
+          "uberDriverSpecificMetrics": {
+            "isUberStatement": false,
+            "revenueUnderestimationRisk": "Nenhum extrato Uber detectado para análise. Cheque não teve êxito."
+          },
+          "totalOutflow": 0,
+          "detectedBankStatement": false,
+          "totalInflow": 0,
+          "withdrawalPattern": "Nenhum extrato bancário detectado para análise. Cheque não teve êxito.",
+          "identifiedInconsistencies": "Nenhum extrato bancário detectado para análise. Cheque não teve êxito.",
+          "netMonthlyBalance": 0,
+          "behavioralRiskAnalysis": "Nenhum extrato bancário detectado para análise. Cheque não teve êxito.",
+          "zeroBalancePeriods": "Nenhum extrato bancário detectado para análise. Cheque não teve êxito."
+        },
+        "nome": "Renato Kawano",
+        "aiComentario": "Nenhum documento foi carregado para análise. Todas as validações e verificações de consistência, incluindo correspondência de nome, validade de CPF, e consistência de renda, não puderam ser realizadas. É um ponto crítico a ser analisado manualmente pelo administrador."
+      }
+    }
+  ],
+  "contractModels": [
+    {
+      "id": "model-res-pg",
+      "finePercent": 10,
+      "name": "Contrato de Locação Residencial Padrão",
+      "interestMonthlyPercent": 2,
+      "content": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado {{LOCADOR_NOME}}, {{LOCADOR_NACIONALIDADE}}, {{LOCADOR_ESTADO_CIVIL}}, portador de Rg {{LOCADOR_RG}} e do CPF {{LOCADOR_CPF}} residente em {{LOCADOR_RESIDENCIA}}, como locador e de outro o Sr.(a) {{LOCATARIO_NOME}}–, brasileiro(a),{{LOCATARIO_ESTADO_CIVIL}}, portador(a) do RG {{LOCATARIO_RG}} e do CPF: {{LOCATARIO_CPF}}, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a **{{IMOVEL_ENDERECO}}** ({{IMOVEL_UNIDADE}}) **Solemar – Solemar - SP** que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de {{CONTRATO_PRAZO_MESES}} (Doze) meses sendo o inicial em **{{CONTRATO_DATA_INICIO}}** e o final no dia **{{CONTRATO_DATA_FIM}}**, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de **{{IMOVEL_VALOR}}** ({{IMOVEL_VALOR_EXTENSO}}) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia **{{CONTRATO_DIA_VENCIMENTO}}** (Dez) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no {{LOCADOR_BANCO}}, agência {{LOCADOR_AGENCIA}} - Conta Corrente {{LOCADOR_CONTA}} ou via PIX: {{LOCADOR_PIX}}. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (**01 Pessoa**) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de **R$ 1.155,00** (**Hum mil cento e cinquenta e cinco reais**), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago **R$550,00** trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\nParágrafo primeiro: mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n\nParágrafo segundo: Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n\nParágrafo terceiro: Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n\nParágrafo Quarto: Não possuir animais domésticos a fim de não perturbar vizinhos.\n\nParágrafo Quinto: Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\nParágrafo sexto: Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n8 de Abril de 2026, Praia Grande - SP.\n\n{{LOCADOR_NOME}}\n**LOCADOR**\n\n{{LOCATARIO_NOME}}\n**LOCATÁRIO**\n\ngov.br\nDocumento assinado digitalmente\nMATHEUS LUIS DA COSTA OLIVEIRA\nData: 08/04/2026 06:55:30-0300\nVerifique em https://validar.iti.gov.br\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "isDefault": false
+    },
+    {
+      "id": "model-com-simp",
+      "isDefault": false,
+      "name": "Contrato de Locação Comercial Simplificado",
+      "content": "CONTRATO DE LOCAÇÃO COMERCIAL DE IMÓVEL\n\nQUALIFICAÇÃO DAS PARTES CONTRATANTES:\nLOCADOR: {{LOCADOR_NOME}}, CPF {{LOCADOR_CPF}}, RG {{LOCADOR_RG}};\nLOCATÁRIO: {{LOCATARIO_NOME}}, CPF {{LOCATARIO_CPF}}, RG {{LOCATARIO_RG}}.\n\nCLÁUSULA PRIMEIRA — DO OBJETO:\nO imóvel comercial situado a {{IMOVEL_ENDERECO}} para uso exclusivo da atividade comercial do locatário.\n\nCLÁUSULA SEGUNDA — DE VALOR E CONDIÇÕES:\nO aluguel será pago pontualmente todo dia {{CONTRATO_DIA_VENCIMENTO}} no valor de {{IMOVEL_VALOR}} ({{IMOVEL_VALOR_EXTENSO}}).\n\nCLÁUSULA TERCEIRA — DA MORA:\nEm caso de atraso no pagamento do aluguel, incidirá multa moratória de 5% (cinco por cento) sobre o valor devido, acrescido de juros de 1% (um por cento) ao mês de atraso.\n\nFORO DE ELEIÇÃO:\nElegem as partes o Foro de Praia Grande - SP.",
+      "interestMonthlyPercent": 1,
+      "finePercent": 5
+    },
+    {
+      "id": "model-1781805459640",
+      "finePercent": 10,
+      "isDefault": false,
+      "interestMonthlyPercent": 2,
+      "content": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado {{LOCADOR_NOME}}, {{LOCADOR_NACIONALIDADE}}, {{LOCADOR_ESTADO_CIVIL}}, portador de Rg {{LOCADOR_RG}} e do CPF {{LOCADOR_CPF}} residente em {{LOCADOR_RESIDENCIA}}, como locador e de outro o Sr.(a) {{LOCATARIO_NOME}}–, brasileiro(a),{{LOCATARIO_ESTADO_CIVIL}}, portador(a) do RG {{LOCATARIO_RG}} e do CPF: {{LOCATARIO_CPF}}, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a {{IMOVEL_ENDERECO}} ({{IMOVEL_UNIDADE}}) Solemar – Solemar - SP que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de {{CONTRATO_PRAZO_MESES}} (Doze) meses sendo o inicial em {{CONTRATO_DATA_INICIO}} e o final no dia {{CONTRATO_DATA_FIM}}, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALOR DO ALUGUEL** O aluguel mensal, livremente convencionado será de {{IMOVEL_VALOR}} ({{IMOVEL_VALOR_EXTENSO}}) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia {{CONTRATO_DIA_VENCIMENTO}} (Dez) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no {{LOCADOR_BANCO}}, agência {{LOCADOR_AGENCIA}} - Conta Corrente {{LOCADOR_CONTA}} ou via PIX: {{LOCADOR_PIX}}. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO, dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIO venha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIO concorda desde já, a antecipar o valor de R$ 1.155,00 (Hum mil cento e cinquenta e cinco reais), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$550,00 trata-se apenas do depósito referente exclusivamente para a pintura, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. Valor que possivelmente será devolvido na devolução do imóvel se a pintura estiver nas mesmas condições que foi entregue.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\n**Parágrafo primeiro:** mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\n**Parágrafo segundo:** Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\n**Parágrafo terceiro:** Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\n**Parágrafo Quarto:** Não possuir animais domésticos a fim de não perturbar vizinhos.\n**Parágrafo Quinto:** Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\n**Parágrafo sexto:** Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTA OU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIO fica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\n{{LOCADOR_NOME}}\n{{LOCATARIO_NOME}}\n\n**LOCADOR**\n**LOCATÁRIO**\n\n\n\n**TESTEMUNHAS**\n\n1°\n\n2°",
+      "name": "Matheus_Luiz_-_KIT_05_assinado"
+    },
+    {
+      "id": "model-1784120973415",
+      "finePercent": 10,
+      "isDefault": true,
+      "name": "A - Novo Padrão - Contrato ",
+      "content": "**CONTRATO DE LOCAÇÃO RESIDENCIAL**\nIdentificação Digital da Minuta: PRTOS-CONTRATO-1781880384855 Padrão Renato Faria Kawano\n\n**CONTRATO DE LOCAÇÃO RESIDENCIAL**\n\nPelo presente instrumento particular do contrato, de um lado {{LOCADOR_NOME}}, {{LOCADOR_NACIONALIDADE}}, {{LOCADOR_ESTADO_CIVIL}}, portador de Rg {{LOCADOR_RG}} e do CPF {{LOCADOR_CPF}} residente em {{LOCADOR_RESIDENCIA}}, como locador e de outro o Sr.(a) {{LOCATARIO_NOME}}, brasileiro(a), Divorciado(a), portador(a) do RG {{LOCATARIO_RG}} e do CPF: {{LOCATARIO_CPF}}, como locatário celebrar entre si o presente contrato de locação, que será regido pelas condições abaixo, os quais reciprocamente aceitam .\n\n**Cláusula Primeira** O locador é legítimo possuidor do imóvel situado a Rua Sayao, 223 - Casa 2,{{IMOVEL_UNIDADE}}, Solemar, Praia Grande - SP - que é dado em locação ao Locatário para que este use para fins Residenciais, fixando sua residência e seus familiares ficando vedada a desvirtuação da finalidade, sem anuência dos Locadores, ou de seu administrador.\n\n**Cláusula Segunda - DO PRAZO** O Prazo de locação será de {{CONTRATO_PRAZO_MESES}} (Doze) meses sendo o inicial em {{CONTRATO_DATA_INICIO}} e o final no dia {{CONTRATO_DATA_FIM}}, quando o Locatário se obriga a restituir o imóvel independentemente de qualquer notificação, seja judicial ou extrajudicial, e se houver interesse das partes poderá ser renovável mediante interesse das partes e ou renovável automaticamente se as partes não se pronunciarem a respeito.\n\n**Cláusula Terceira:DO VALORDO ALUGUEL** O aluguel mensal, livremente convencionado será de {{IMOVEL_VALOR}} ({{IMOVEL_VALOR_EXTENSO}}) que será reajustado anualmente segundo a variação, acumulada no índice IGPM/FGV, IGP/FGV, INPC/IBGE, IPC/FIPE, adotando-se uma na falta do outro, pelo índice que o substitua e que supra os efeitos inflacionários.\n\n**Cláusula Quarta: DO VENCIMENTO** O vencimento do aluguel é todo dia {{CONTRATO_DIA_VENCIMENTO}} (um) de cada mês, devendo ser pago pontualmente por meio de depósito bancário no {{LOCADOR_BANCO}}, agência {{LOCADOR_AGENCIA}} - Conta Corrente {{LOCADOR_CONTA}} ou via PIX: {{LOCADOR_PIX}}. O pagamento após o prazo de vencimento implicará em multa de 10% (dez por cento) de multa e vencerão juros de 2% (dois por cento) ao mês, mais correção monetária atualizada pelo mesmo critério utilizado pelo Governo Federal para cobrança de mora dos impostos em atraso.\n\n**Cláusula Quinta:** Além dos juros e encargos acima citados, o Locatário incorrerá em caso de mora no pagamento de aluguéis, em 20% (vinte por cento) referentes a honorários advocatícios. Esta porcentagem será reduzida a 10% (dez por cento) se a dívida for liquidada amigavelmente no escritório do advogado do Locador, anteriormente a qualquer procedimento judicial. Fica obrigado o LOCADOR, a emitir recibo da quantia paga, relacionando pormenorizadamente todos os valores oriundos de Juros, ou outras despesas. Emitir-se-á tal recibo, desde que haja a apresentação, pelo LOCATÁRIO,dos comprovantes de todas as despesas do imóvel devidamente quitado. Caso o LOCATÁRIOvenha a efetuar o pagamento do aluguel através de cheque, restará facultado ao LOCADOR emitir os recibos de pagamentos\n\n--PAGE--\n\nsomente após compensação do mesmo.\nNo caso de falta de pagamento de aluguéis e demais encargos previstos neste contrato ou infração de qualquer obrigação contratual ou legal ficam o Locador com a faculdade de ajuizar quando lhe parecer conveniente contra o Locatário ação de despejo ou qualquer outra, sem necessidade de comunicação, ou quais nem por isso fica exonerado da obrigação de indenizar o Locador das custas processuais, honorários de advogado, multa contratual e de todos os demais encargos decorrentes dos aludidos procedimentos, ou do presente contrato.\n\n**Cláusula Sexta:**O Locatário informa que o imóvel será ocupado por (01 Pessoa) não podendo ter mais pessoas do que informado ao Locador, sob pena de rescisão contratual.\n\n**Cláusula Sétima** O Locatário se obriga a fazer chegar às mãos do Locador todo e qualquer aviso ou comunicação que diga respeito ao imóvel locado, sob pena de responder pelas perdas e danos que usar.\n\n**Cláusula Oitava:** O LOCATÁRIOconcorda desde já, a antecipar o valor de {{IMOVEL_VALOR}} ({{IMOVEL_VALOR_EXTENSO}}), equivalente a 01 (hum) mês de aluguel.\nE está ciente que o valor pago R$ 550,00 (quinhentos e cinquenta reais) trata-se de valor exclusivamente para a pintura e manutenção, não o isentando(a) por qualquer outro dano que venha causar ao imóvel. O valor não será devolvido ao término do contrato quando o imóvel for entregue ao locador.\n\n**Cláusula Nona:** Não é permitida a transferência deste contrato em todo ou em parte.\n\n**Cláusula Décima:** É proibido ao locatário fazer sublocação do imóvel, ou empréstimo do imóvel locado sem consentimento do locador/administrador por escrito.\n\n**Cláusula Décima Primeira:** O Locatário confesso que recebeu o imóvel no estado em que se encontra, e se obriga:\nParágrafo primeiro: mantê-lo em perfeito estado de conservação, asseio e higiene, bem como todas as instalações e serventias em perfeito estado de funcionamento, restituindo-o quando o findo do presente contrato, sem o menor dano, inclusive fechaduras, trincos, chaves, vidros, torneiras, maçanetas, pinturas, instalações sanitárias, de água etc.\nSe o Locatário restituir o imóvel sem providenciar os consertos e substituições necessárias devolvê-lo no estado em que recebeu, deverá pagar ao Locador a indenização necessária pelos danos, devidamente atualizados na época.\nParágrafo segundo: Não modificar a estrutura e divisões do imóvel, salvo mediante consentimento prévio do Locador por escrito sob pena de rescisão do contrato e exigir a reposição de tudo no seu estado anterior e cobrar multa adiante pactuada.\nParágrafo terceiro: Não utilizar pregos em excesso nas paredes que possam danificar as mesmas, e sua pintura ficando responsável por quaisquer danos causados.\nParágrafo Quarto: Não possuir animais domésticos a fim de não perturbar vizinhos.\nParágrafo Quinto: Não jogar entulhos no quintal ex: (móveis velhos, madeiras utensílios, eletrodomésticos que não esteja utilizando, sob pena de pagar multa de 20% (vinte por cento)\n\n--PAGE--\n\nParágrafo sexto: Fica proibido utilizar a água para lavar veículo, sob pena de pagar multa de 20% (vinte por cento) do valor do aluguel.\n\n**Cláusula Décima Segunda:** O Locatário desde já faculta ao Locador /Administrador, vistoriar o imóvel locado quando entender conveniente, durante a locação, para verificar o exato cumprimento das cláusulas deste contrato.\n\n**Cláusula Décima Terceira: : DA MULTAOU QUEBRA DE CONTRATO** As partes que infringir o presente contrato em qualquer de suas cláusulas pagará, multa equivalente a 3 (três) aluguéis vigentes na data da infração, com a faculdade, para a parte inocente de exigir o cumprimento do contrato ou considerá-lo rescindido. O pagamento da multa não exime o Locatário, no caso de rescisão da obrigação de pagar os aluguéis vencidos, nem de ressarcir dos danos causados ao objeto locado.\n\n**Cláusula Décima Quarta:** Toda e qualquer benfeitoria no imóvel, fica a ele incorporada, não podendo o locatário sob qualquer pretexto exigir indenização pelos danos, bem como pelos lucros cessantes ou pleitear a retenção do imóvel pelas benfeitorias feitas, ainda que necessárias e autorizadas pelo Locador.\n\n**Cláusula Décima Quinta:** Findo o prazo do presente contrato e havendo renovação ou prorrogação legal da locação o aluguel será reajustado a partir do vencimento deste contrato, de acordo com a lei do inquilinato vigente na época.\n\n**Cláusula Décima Sexta:** Em caso de incêndio ou acidente que obrigue a reconstrução do prédio ficará automaticamente rescindido, respondendo, porém o Locatário por perdas e danos e justa indenização, se o fato lhe for imputável.\n\n**Cláusula Décima Sétima:** O LOCATÁRIOfica desde já obrigado a fazer seguro contra incêndios do imóvel, seguradora idônea e que passe por prévia autorização do LOCADOR.\n\n**Cláusula Décima Oitava:** O Locatário faculta o locador/administrador a encaminhar pretendentes à compra do imóvel sob aviso prévio de 24 horas. ]\n\n**Cláusula Décima Nona:** Assume o Locatário a responsabilidade civil e criminal pela legitimidade de sua assinatura e pela autenticidade dos documentos exibidos e veracidades das informações prestadas.\n\n**Cláusula Vigésima:** O Locatário apresenta os 03 (Três) últimos comprovantes de Renda, bem como apresentação dos documentos originais aqui mencionados e cópias dos mesmos.\n\n**Cláusula Vigésima Primeira:** Ambos elegem o Fórum de Praia Grande - SP para dirimir quaisquer dúvidas, e ações que tenham por objeto o presente contrato, e tudo que nele contenha, renunciando a qualquer outro, por mais privilegiado que seja. E por estarem assim justos e contratados, assinam o presente contrato em 02 (duas) vias de igual teor e forma juntamente com duas testemunhas.\n\n--PAGE--\n\n17 de Junho de 2026, Praia Grande - SP.\n\n{{LOCADOR_NOME}}\nLOCADOR\n\n{{LOCATARIO_NOME}}\nLOCATÁRIO\n\n**DOCUMENTAÇÃO E ASSINATURAS CERTIFICADAS**\n\n**ASSINATURA DIGITAL DO LOCADOR:**\n[] Aguardando Assinatura Digital do Locador {{LOCADOR_NOME}}\nMinuta aguardando validação eletrônica via integração de login GOV.BR.\n\n**ASSINATURA DIGITAL DO LOCATÁRIO:**\n[] Aguardando Assinatura do Inquilino(a) {{LOCATARIO_NOME}}",
+      "interestMonthlyPercent": 2
+    }
+  ],
+  "notificationSettings": {
+    "directAdminKey": "SK-ADMIN-9921",
+    "smtpUser": "",
+    "smtpPassword": "",
+    "smtpHost": "",
+    "smtpPort": "587",
+    "whatsappToken": "",
+    "whatsappInstancePhone": "",
+    "alertBeforeDueDays": 3,
+    "alertBeforeContractExpirationMonths": 1,
+    "autoEmailAlerts": true,
+    "autoWhatsappAlerts": true
+  },
+  "notificationLogs": []
+}
